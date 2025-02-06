@@ -1,0 +1,9 @@
+body {
+    background-color: var(--background-color); /* Dynamically change background */
+    color: var(--text-color); /* Dynamically change text color */
+    
+}
+button {
+    background-color: var(--btn-color); /* Dynamically use the variable */
+    color: var(--btn-text-color); /* Dynamically use the variable */
+}
