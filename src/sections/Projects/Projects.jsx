@@ -13,17 +13,17 @@ const Projects = () => {
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.ProjectsContainer}>
         <ProjectCard src={bubbles} 
-        link='https://github.com/polankita/Bubble_game' 
+        link='https://github.com/Ankita-Pol/bubble-game' 
         h3="Bubble Game" 
         p="Popping Bubbles"/>
 
         <ProjectCard src={profile} 
-        link='https://github.com/polankita/Social-card-website' 
+        link='https://github.com/Ankita-Pol/profile-card' 
         h3="Profile Card" 
         p="Celebrity social media profiles"/>
 
         <ProjectCard src={clock} 
-        link='https://github.com/polankita/task-alarm' 
+        link='https://github.com/Ankita-Pol/web-alarm' 
         h3="Web Alarm" 
         p="In-browser alarm"/>
 

@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import RESUME from '../../assets/resume.pdf'
+import RESUME from '../../assets/ankita_resume.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 
@@ -30,9 +30,9 @@ function Hero() {
         <h1>Ankita <br />Pol</h1>
         <h2>Frontend Developer</h2>
         <span>
-            <a href="https://twitter.com/" target="_blank">
+            {/* <a href="https://twitter.com/" target="_blank">
                 <img src={twitterIcon} alt="twitter icon" />
-            </a>
+            </a> */}
             <a href="https://github.com/polankita" target="_blank">
                 <img src={githubIcon} alt="github icon" />
             </a>
@@ -40,7 +40,7 @@ function Hero() {
                 <img src={linkedinIcon} alt="linkedin icon" />
             </a>
         </span>
-        <p className={styles.description}>with a passion for develeoping modern React web apps for commercial businesses.</p>
+        <p className={styles.description}>"Bringing ideas to life with sleek React interfaces while delving into the depths of MERN to craft seamless web experiences." 🚀</p>
         <a href={RESUME} download>
             <button className='hover'>
                 Resume
